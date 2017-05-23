@@ -12,8 +12,6 @@ class CountComponent extends React.Component {
             minValue: Number(this.props.minValue)
         };
         this.setIndex = this.setIndex.bind(this);
-        // this.testMethod = this.testMethod.bind(this);
-        // this.setDefaultValue = this.setDefaultValue.bind(this);
     };
     setIndex (chindIndex){
         if (!chindIndex) {
